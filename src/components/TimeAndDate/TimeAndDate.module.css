@@ -1,0 +1,35 @@
+.calendar_container {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+}
+
+.TimeDate {
+  background-color: #ee8989;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.TimeNow {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 16px;
+   background-color: #89ebee;
+}
+
+.date, .time {
+  font-weight: bold;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header/Header';
-import TimeAndDate from './components/Header/TimeAndDate'
+import TimeAndDate from './components/TimeAndDate/TimeAndDate'
 
 export default function App() {
   return (
