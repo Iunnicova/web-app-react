@@ -2,28 +2,20 @@ import React, { useEffect } from "react";
 import TimeAndDate from "../TimeAndDate/TimeAndDate";
 import styles from "./Header.module.css";
 import MySvgLogo from "../../MySvgLogo/MySvgLogo";
-// import { ReactComponent as VkIcon } from "./src/svg/vk.svg";
+import VkIcon from "../../svg/VkIcon.svg";
 
-// import MySvgLogo from '../MySvgLogo';
+interface HeaderProps {
+  onFlowerClick: () => void;
+}
 
-export default function Header() {
-  //клил по лесточку
-  useEffect(() => {
-    const path = document.querySelector("path[fill='red']") as SVGPathElement;
-    if (path) {
-      path.style.cursor = "pointer";
-      path.addEventListener("click", () => {
-        alert("Клик по лепестку!");
-      });
-    }
-  }, []);
-
+export default function Header({ onFlowerClick }: HeaderProps) {
   return (
     <header>
       <div className={styles.logo}>
         <MySvgLogo
           className={styles.logoDreams}
           alt="Daisy flower with pigtails"
+          onClick={onFlowerClick}
         />
       </div>
       <h3>Blossoming dreams</h3>
