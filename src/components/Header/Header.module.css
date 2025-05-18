@@ -11,3 +11,35 @@ a:hover {
   opacity: 0.8; /* Немного уменьшаем прозрачность при наведении */
 }
 
+/* import React from 'react';
+import TimeAndDate from '../TimeAndDate/TimeAndDate'; 
+import logo from '/logo.svg';
+import styles from './Header.module.css'; 
+export default function Header() {
+  return (
+    <header>
+      <div className={styles.logo}>
+   <img className={styles.logoDreams}  src={logo} alt="Daisy flower with pigtails" />
+
+
+
+   </div>
+      <h3>Blossoming dreams</h3>
+      <span>
+         <TimeAndDate />
+         </span> 
+    </header>
+  );
+}  */
+
+/* <svg width="100" height="100" viewBox="0 0 100 100">
+   
+<path fill="red" d=" M-6337 -14
+c100 -34 108 -80 38 -204 -71 -126 -136 -192 -188 -192 -33 0 -105 82 -150
+173 l-45 90 32 23 c17 13 35 24 39 24 12 0 106 -78 123 -101 23 -34 29 -17 10
+30 -17 44 -74 101 -101 101 -11 0 -14 6 -9 23 3 12 6 27 6 34 0 6 8 14 18 17
+34 10 178 -2 227 -18z"/>
+   
+</svg>
+
+</> */

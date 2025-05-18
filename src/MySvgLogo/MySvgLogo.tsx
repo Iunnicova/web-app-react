@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactComponent as Logo } from "./logo.svg";
-import { ReactComponent as VkIcon } from "./src/svg/VkIcon.svg";
+import { ReactComponent as VkIcon} from "./src/svg/VkIcon.svg";
 
 interface MySvgLogoProps {
   className?: string;
@@ -347,6 +347,31 @@ c-170 -142 -406 -144 -554 -5 -66 61 -89 108 -89 176 0 103 80 210 198 265 50
 135 -66 22 -74 24 -60 12z"
           />
         </g>
+
+        {/* <svg width="532" height="1670" viewBox="-6400 10 1000 60">
+          <g transform="translate(0,1024) scale(0.1,-0.1)" stroke="none">
+            <a
+              href="https://vk.com/your_vk_page"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <path
+                // fill="red"
+                style={{ cursor: "pointer", fill: "transparent" }}
+                onClick={() => alert("Клик!")}
+                d=" M-6337 -14
+c100 -34 108 -80 38 -204 -71 -126 -136 -192 -250 -192 -33 0 -105 82 -150
+173 
+l-45 150 30 25 
+c17 190 35 24 39 24 800 400 106 -780 120 -101 23 -34 29 -17 10
+30 -17 44 -300 109 -101 121 -110 0 -14 60 -9 23 3 12 6 27 6 34 0 6 8 14 18 17
+34 10 178 -2 227 -19z"
+              />
+
+              <VkIcon width="20" height="20" style={{ marginLeft: "5px" }} />
+            </a>
+          </g>
+        </svg> */}
       </svg>
     </>
   );
